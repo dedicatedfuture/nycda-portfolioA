@@ -14,11 +14,29 @@ body {
   border-bottom: 2px solid black;
   z-index: 1;
 }
+.header ul {
+  list-style-type: none;
+  width: 200px;
+
+  display: inline;
+}
 .header li {
   display: inline;
   list-style: none;
   float: left;
   margin-left: 10px;
+}
+.header li a {
+    display: inline;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+
+.header li a:hover {
+    background-color: #555;
+    color: white;
 }
 .filler{
   height: 150px;
@@ -104,6 +122,10 @@ body {
   margin: auto;
   border: 2px black solid;
   text-align: center;
+}
+.htmlboxes {
+  width: 30%;
+  height: 560px;
 }
 .boxPic1 {
   width: 400px;

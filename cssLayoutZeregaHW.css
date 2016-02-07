@@ -1,0 +1,63 @@
+body{
+  background-color: lightblue;
+  text-align: center;
+}
+.header {
+  width:100%;
+  background-color: darkblue;
+  text-align: center;
+
+}
+
+
+.banner{
+  width: 50%;
+  height: 150px;
+  margin: auto;
+}
+.herocontainer{
+  width: 90%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.heroboxes {
+
+  margin: auto;
+  border: 1px black solid;
+  text-align: center;
+
+}
+
+.teampic {
+  float: left;
+  width: 200px;
+  height: 200px;
+
+}
+.mappic {
+  float: right;
+  width: 400px;
+  height: 300px;
+}
+
+.bold{
+  font-weight: bold;
+}
+.interview {
+  clear: both;
+}
+.container {
+  width: 100%;
+
+}
+.container:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.boxes{
+  float: left;
+  margin: 10px;
+}
