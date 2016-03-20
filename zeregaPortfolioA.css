@@ -1,5 +1,6 @@
+
 body {
-  background-color: lightgreen;
+  background-color: lightblue;
   margin: 0 5%;
   font-family: Copperplate Gothic Light, sans-serif;
 
@@ -8,7 +9,7 @@ body {
   position: fixed;
   top:0;
   width: 100%;
-  background-color: lightgreen;
+  background-color: lightblue;
   height: 100px;
   text-align: center;
   border-bottom: 2px solid black;
@@ -118,9 +119,17 @@ body {
   justify-content: center;
   text-align: center;
 }
+
+/*start parralax*/
+.parralax{
+  background: url('http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg') repeat fixed 100%;
+}
+
+/*end parralax*/
 .boxes{
+  color: white;
   margin: auto;
-  border: 2px black solid;
+  border: 2px white solid;
   text-align: center;
 }
 .htmlboxes {
@@ -141,7 +150,7 @@ body {
   bottom: 0;
   border-top: 3px solid black;
   height: 100px;
-  background-color: green;
+  background-color: blue;
 }
 .footerContainer{
   position: absolute;
