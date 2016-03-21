@@ -112,20 +112,29 @@ body {
 
 
 .boxesContainer {
+
   clear: both;
   width: 100%;
   height: 600px;
   display: inline-flex;
   justify-content: center;
   text-align: center;
+  
+}
+.parallax{
+  position: relative;
+  
+  background: url('http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg');
 }
 
 /*start parralax*/
-.parralax{
+/*.parallax{
   background: url('http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg') repeat fixed 100%;
-}
+}*/
 
 /*end parralax*/
+
+
 .boxes{
   color: white;
   margin: auto;
